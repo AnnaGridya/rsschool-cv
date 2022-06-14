@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna Gridina - CV</title>
+    
+    <link rel="icon" href="./img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8fd495949b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <ul>
+          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#code-example">Code Example</a></li>
+          <li><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+      <nav class="menu-mob">
+        <ul>
+          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+        </ul>
+        <ul>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#code-example">Code Example</a></li>
+          <li><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section>
+        <h1>Anna Gridina</h1>
+        <div class="photo">
+          <img src="./img/photo.png">
+        </div>
+      </section>
+      <section id="contacts">
+        <h2>Contacts</h2>
+        <ul class="items-list">
+          <li class="contacts-title">Location: <span>Togliatti, Russia</span></li>
+          <li class="contacts-title">Email: <a href="mailto:annetgridina@gmail.com" target="_blank">annetgridina@gmail.com</a></li>
+          <li class="contacts-title">Telegram: <a href="https://t.me/TehhyShekk" target="_blank">@TehhyShekk</a></li>
+          <li class="contacts-title">GitHub: <a href="https://github.com/AnnaGridya/" target="_blank">AnnaGridya</a></li>
+        </ul>
+      </section>
+      <section id="about-me">
+        <h2>About me</h2>
+        <p>I want to improve my level in frontend development.</p>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul class="items-list">
+          <li class="skills-text"><b>CMS:</b> WordPress, Joomla, Bitrix</li>
+          <li class="skills-text">HTML</li>
+          <li class="skills-text">CSS</li>
+          <li class="skills-text">JavaScript <span>(Basic)</span></li>
+          <li class="skills-text">Fotoshop, Figma</li>
+        </ul>
+      </section>
+      <section id="experience">
+        <h2>Experience</h2>
+        <ul class="items-list">
+          <li><b>August 2017 - December 2017</b> - development of a personal account for users of IP cameras (php, AngularV1)</li>
+          <li><b>January 2018 - April 2019</b> - development/Layout of sites on Bitrix. Work with other CMS: Joomla, WordPress and etc.</li>
+          <li><b>April 2019 - to date</b> - layout of widgets and mostly emails</li>
+        </ul>
+      </section>
+      <section id="education">
+        <h2>Education</h2>
+        <ul class="items-list">
+          <li class="items-title">University: <span>Togliatti State University, Mathematical support and administration of information systems</span></li>
+          <li class="items-title"><b>Courses:</b> <a href="https://htmlacademy.ru/">HTML Academy</a>, <a href="https://rs.school/">RS School</a></li>
+        </ul>
+      </section>
+      <section class="code-example" id="code-example">
+        <h2>Code example</h2>
+<pre>
+  <code>
+<span class="blue">var</span> <span class="variable">arr</span> = [<span class="number">1,5,11,25</span>];
+<span class="blue">function</span> <span class="number">arraySum</span>(<span class="variable">array</span>) {
+  <span class="blue">var</span> <span class="variable">sum</span> = <span class="number">0</span>;
+  <span class="blue">for</span> (<span class="blue">var</span> <span class="variable">i</span> = <span class="number">0</span>; <span class="variable">i</span> < <span class="variable">array.length</span>; <span class="variable">i</span>++) {
+    <span class="variable">sum</span> += <span class="variable">array[i]</span>;
+  }
+}
+<span class="number">arraySum</span>(<span class="variable">arr</span>);
+</code>
+</pre>
+      </section>
+      <section id="languages">
+        <h2>Languages</h2>
+        <ul class="items-list">
+          <li class="items-title">Russian: <span>Native</span></li>
+          <li class="items-title">English: <span>B1</span></li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <a href="https://rs.school/js/" target="blank" title="RSS JavaScript/Front-end">
+          <img src="./img/rs_school_js.svg" alt="RS School" class="rss-logo" width="70">
+        </a>
+        <a href="https://github.com/AnnaGridya/" class="socials-link" target="blank">
+          <span class="fab fa-github" aria-hidden="true"></span>
+        </a>
+        <p class="date">© 2022</p>
+      </div>
+    </footer>
+  </body>
+</html>

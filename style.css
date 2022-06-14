@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth; 
+}
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+h2 {
+  color: #64c766;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+.photo img {
+  border-radius: 50%;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  height: 50px;
+  letter-spacing: 3px;
+  background-color: #000;
+}
+.menu li {
+  display: flex;
+}
+.menu a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  transition: .3s;
+}
+.menu a:hover, .contacts-title a:hover, .items-title a:hover {
+  text-decoration: underline;
+  color: #64c766;
+}
+.items-list {
+  list-style: none;
+  padding: 10px;
+  border-left: 5px solid #b6e5b7;
+}
+.items-list li {
+  margin: 4px 0;
+}
+.contacts-title, .items-title {
+  margin: 4px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+.contacts-title span, .items-title span {
+  font-weight: normal;
+}
+.contacts-title a, .items-title a {
+  font-weight: normal;
+  color: #000;
+  text-decoration: dotted;
+  transition: .3s;
+}
+.skills-text {
+  margin: 4px 0;
+  font-size: 16px;
+}
+.code-example pre {
+  padding: 10px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #000;
+}
+.code-example .variable {
+  color: #55dbf9;
+}
+.code-example .blue {
+  color: #7472cf;
+}
+.code-example .number {
+  color: #d3d978;
+}
+.menu-mob {
+  display: none;
+}
+.footer {
+  background-color: #000;
+}
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.fab:before {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 16px;
+}
+.date {
+  font-size: 14px;
+  color: #fff;
+}
+@media screen and (max-width: 1024px) {
+  .menu {
+    display: none;
+  }
+  .code-example pre {
+    font-size: 11px;
+  }
+}
